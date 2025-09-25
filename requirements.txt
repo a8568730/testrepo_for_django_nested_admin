@@ -8,7 +8,7 @@ asgiref==3.9.2
     # via django
 django==5.1.10
     # via -r requirements.in
-django-nested-admin==4.1.1
+django-nested-admin==4.1.2
     # via -r requirements.in
 python-monkey-business==1.1.0
     # via django-nested-admin
