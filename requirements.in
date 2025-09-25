@@ -1,0 +1,2 @@
+django==5.1.10
+django-nested-admin==4.1.1
