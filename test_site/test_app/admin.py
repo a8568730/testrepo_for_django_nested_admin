@@ -8,6 +8,9 @@ class PronunciationInline(nested_admin.NestedTabularInline):
     model = Pronunciation
     fields = ('pronunce', 'order', )
     sortable_field_name = 'order'
+
+    # If I remove the collapse attribute below,
+    # the PronunciationInline become draggable in HeadWord chageform.
     classes = ['collapse']
 
 
