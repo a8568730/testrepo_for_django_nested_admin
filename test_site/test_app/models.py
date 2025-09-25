@@ -9,5 +9,5 @@ class HeadWord(models.Model):
 
 class Pronunciation(models.Model):
     headword = models.ForeignKey("HeadWord", on_delete=models.CASCADE)
-    pronunciation = models.CharField(max_length=50)
+    pronunce = models.CharField(max_length=50)
     order = models.PositiveIntegerField(help_text="the order of priority")
